@@ -14,6 +14,12 @@ npm install
 npm run serve
 ```
 
+#### Compiles and runs for testing
+
+```
+$ npm run test:e2e
+```
+
 #### Compiles and minifies for production
 ```
 npm run build
