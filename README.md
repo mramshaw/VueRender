@@ -39,6 +39,22 @@ npm run lint
 #### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+## Reference
+
+Some useful references follow.
+
+#### Vue Cypress plugin:
+
+    http://cli.vuejs.org/core-plugins/e2e-cypress.html
+
+#### Unit testing using Cypress.io Test Runner:
+
+    http://dev.to/bahmutov/unit-testing-vuex-data-store-using-cypress-io-test-runner-3g4n
+
+#### GitHub Actions & Building and testing Node.js
+
+    http://docs.github.com/en/free-pro-team@latest/actions/guides/building-and-testing-nodejs
+
 ## To Do
 
 - [x] Add graphical/layout improvements
@@ -51,11 +67,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 Based upon: http://render.com/docs/deploy-vue-js
 
 FontAwesome Icons: http://fontawesome.com/icons?d=gallery
-
-Vue Cypress plugin:
-
-    http://cli.vuejs.org/core-plugins/e2e-cypress.html
-
-Unit testing using Cypress.io Test Runner:
-
-    http://dev.to/bahmutov/unit-testing-vuex-data-store-using-cypress-io-test-runner-3g4n
