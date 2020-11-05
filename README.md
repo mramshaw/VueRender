@@ -42,4 +42,4 @@ FontAwesome Icons: http://fontawesome.com/icons?d=gallery
 
 Unit testing using Cypress.io Test Runner:
 
-    https://dev.to/bahmutov/unit-testing-vuex-data-store-using-cypress-io-test-runner-3g4n
+    http://dev.to/bahmutov/unit-testing-vuex-data-store-using-cypress-io-test-runner-3g4n
