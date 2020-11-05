@@ -1,6 +1,6 @@
 # vue.js-single-page
 
-![test status](https://github.com/mramshaw/VueRender/workflows/tests/badge.svg?branch=master)
+[![test status](https://github.com/mramshaw/VueRender/workflows/tests/badge.svg?branch=master)](https://github.com/mramshaw/VueRender/actions)
 
 Exploring a `vue.js` deployment on Render.com
 
@@ -39,6 +39,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 Based upon: http://render.com/docs/deploy-vue-js
 
 FontAwesome Icons: http://fontawesome.com/icons?d=gallery
+
+Vue Cypress plugin:
+
+    http://cli.vuejs.org/core-plugins/e2e-cypress.html
 
 Unit testing using Cypress.io Test Runner:
 
