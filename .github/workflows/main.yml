@@ -3,10 +3,14 @@ on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-      # Install NPM dependencies, cache them correctly
-      #     and run all Cypress tests
-      - name: Cypress run
-        uses: cypress-io/github-action@v2
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm install
+    - run: npm run test:e2e

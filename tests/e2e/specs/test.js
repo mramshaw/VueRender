@@ -3,7 +3,7 @@
 describe("Navigation Tests", () => {
   it("Visits the app root url", () => {
     cy.visit("/#/");
-    cy.contains("h1", "Meeting Log");
+    cy.contains("h4", "Meeting Log");
   });
   it("Allows users to register", () => {
     cy.visit("/#/register");
@@ -16,5 +16,9 @@ describe("Navigation Tests", () => {
   it("Allows users to see their meetings", () => {
     cy.visit("/#/meetings");
     cy.contains("h1", "Meetings");
+  });
+  it("Global redirect works", () => {
+    cy.visit("*");
+    cy.contains("h4", "Meeting Log");
   });
 });

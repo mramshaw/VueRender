@@ -17,7 +17,13 @@ npm run serve
 #### Compiles and runs for testing
 
 ```
-$ npm run test:e2e
+npm run test:e2e
+```
+
+Or run `Cypress` as follows:
+
+```
+./node_modules/cypress/bin/cypress run
 ```
 
 #### Compiles and minifies for production
