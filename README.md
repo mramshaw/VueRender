@@ -1,6 +1,6 @@
 # vue.js-single-page
 
-[![test status](https://github.com/mramshaw/VueRender/workflows/tests/badge.svg?branch=master)](https://github.com/mramshaw/VueRender/actions)
+[![End-to-end tests](https://github.com/mramshaw/VueRender/workflows/End-to-end%20tests/badge.svg?branch=master)](https://github.com/mramshaw/VueRender/actions)
 
 Exploring a `vue.js` deployment on Render.com
 
